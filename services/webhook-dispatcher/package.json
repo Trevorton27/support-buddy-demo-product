@@ -1,0 +1,7 @@
+{
+  "name": "@demo/webhook-dispatcher",
+  "version": "3.1.2",
+  "private": true,
+  "scripts": { "test": "vitest run" },
+  "devDependencies": { "vitest": "^2.0.0" }
+}

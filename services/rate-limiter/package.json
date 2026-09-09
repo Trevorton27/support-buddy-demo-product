@@ -1,0 +1,7 @@
+{
+  "name": "@demo/rate-limiter",
+  "version": "2.2.0",
+  "private": true,
+  "scripts": { "test": "vitest run" },
+  "devDependencies": { "vitest": "^2.0.0" }
+}

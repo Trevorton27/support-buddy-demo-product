@@ -1,0 +1,7 @@
+{
+  "name": "@demo/order-service",
+  "version": "2.4.1",
+  "private": true,
+  "scripts": { "test": "vitest run" },
+  "devDependencies": { "vitest": "^2.0.0" }
+}

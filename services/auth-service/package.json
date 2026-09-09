@@ -1,0 +1,7 @@
+{
+  "name": "@demo/auth-service",
+  "version": "1.9.5",
+  "private": true,
+  "scripts": { "test": "vitest run" },
+  "devDependencies": { "vitest": "^2.0.0" }
+}
