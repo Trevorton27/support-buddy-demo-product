@@ -16,11 +16,7 @@ export function getCertificateForRegion(
   certificates: Certificate[]
 ): Certificate | null {
   const activeCerts = certificates.filter((c) => c.active && c.expiresAt > new Date());
-  if (activeCerts.length === 0) return null;
-
-  // BUG: Always returns the first active certificate regardless of region.
-  // Should filter by region: activeCerts.find((c) => c.region === region)
-  return activeCerts[0];
+  return activeCerts.find((c) => c.region === region) ?? null;
 }
 
 /**
